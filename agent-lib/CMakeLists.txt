@@ -1,5 +1,5 @@
 add_library(agent_lib
-    ./src/agent_lib.cpp
+    src/agent_lib.cc
 )
 
 target_include_directories(agent_lib

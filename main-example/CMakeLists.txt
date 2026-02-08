@@ -1,5 +1,5 @@
 add_executable(main_example
-    main.cpp
+    main.cc
 )
 
 target_link_libraries(main_example

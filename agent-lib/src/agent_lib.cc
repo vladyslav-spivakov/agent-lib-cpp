@@ -1,4 +1,4 @@
-#include "agent_lib/agent_lib.h"
+#include "agent_lib/agent_lib.hh"
 
 namespace agent_lib {
 std::string hello() {
