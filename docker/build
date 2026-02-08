@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set -e
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-source "$SCRIPT_DIR/internal/shared"
-
-echo "Building Docker image: $IMAGE_NAME"
-docker build -t "$IMAGE_NAME" "$PROJECT_ROOT"
